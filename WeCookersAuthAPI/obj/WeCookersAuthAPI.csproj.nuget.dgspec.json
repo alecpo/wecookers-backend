@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\workspace\\WeCookersAuth\\WeCookersAuthAPI\\WeCookersAuthAPI.csproj": {}
+    "C:\\Users\\linco\\Projects\\Dotnet\\wecookers-backend\\WeCookersAuthAPI\\WeCookersAuthAPI.csproj": {}
   },
   "projects": {
-    "C:\\workspace\\WeCookersAuth\\WeCookersAuthAPI\\WeCookersAuthAPI.csproj": {
+    "C:\\Users\\linco\\Projects\\Dotnet\\wecookers-backend\\WeCookersAuthAPI\\WeCookersAuthAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\workspace\\WeCookersAuth\\WeCookersAuthAPI\\WeCookersAuthAPI.csproj",
+        "projectUniqueName": "C:\\Users\\linco\\Projects\\Dotnet\\wecookers-backend\\WeCookersAuthAPI\\WeCookersAuthAPI.csproj",
         "projectName": "WeCookersAuthAPI",
-        "projectPath": "C:\\workspace\\WeCookersAuth\\WeCookersAuthAPI\\WeCookersAuthAPI.csproj",
-        "packagesPath": "C:\\Users\\aless\\.nuget\\packages\\",
-        "outputPath": "C:\\workspace\\WeCookersAuth\\WeCookersAuthAPI\\obj\\",
+        "projectPath": "C:\\Users\\linco\\Projects\\Dotnet\\wecookers-backend\\WeCookersAuthAPI\\WeCookersAuthAPI.csproj",
+        "packagesPath": "C:\\Users\\linco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\linco\\Projects\\Dotnet\\wecookers-backend\\WeCookersAuthAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\aless\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\linco\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,6 +43,12 @@
               "version": "[6.4.4, )"
             },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.4, )"
             },

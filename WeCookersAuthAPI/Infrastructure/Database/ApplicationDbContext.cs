@@ -9,13 +9,18 @@ namespace WeCookersAuthAPI.Infrastructure.Database
 {
     public class ApplicationDbContext : DbContext
     {
-
         public DbSet<User> Users { get; set; }
 
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
+        public ApplicationDbContext(DbContextOptions options) : base(options)
+        {
+        }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
+            base.OnModelCreating(builder);
+
+            builder.HasDefaultSchema("tales_of_runeterra");
+
             builder.Entity<User>().HasKey(user => user.Id);
         }
     }
